@@ -2,9 +2,10 @@
   "name": "github-demo",
   "version": "1.0.0",
   "description": "A backend at",
+  "type": "module",
   "main": "sub_todo.models.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   ],
   "author": "",
   "license": "ISC",
+  "devDependencies": { 
+    "nodemon":"3.0.1"
+  },
   "bugs": {
     "url": "https://github.com/Mrashokkumawat6641/github-demo/issues"
   },
